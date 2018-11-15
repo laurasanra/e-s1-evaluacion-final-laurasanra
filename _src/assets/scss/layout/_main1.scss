@@ -1,0 +1,61 @@
+.section1 {
+    background-color: $colorlight;
+}
+
+.container__section1 {
+    margin: 30px 15px 45px 15px;
+    max-width: 730px;
+}
+
+.tips {
+    color: #8ccbea;
+    font-size: 14px;
+    font-family: $fontregular;
+    font-weight: $fontweightregular;
+}
+
+.title__window {
+    font-size: 24px;
+    font-family: $fontprincipal;
+}
+
+.text__section1 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: $fontregular;
+    color: $colormedium;
+}
+
+/*Tablet*/
+
+@media all and (min-width:768px) {
+    .container__section1 {
+        margin: 30px 39px 60px 39px;
+    }
+    .tips {
+        font-size: 14px;
+    }
+    
+    .title__window {
+        font-size: 26px;
+    }
+    
+    .text__section1 {
+        font-size: 20px;
+    }
+}
+
+/*Laptop*/
+
+@media all and (min-width:1280px) {
+    .container__section1{
+        margin: 60px auto;
+    }
+    .tips {
+        font-size: 16px;
+    }
+    .title__window {
+        font-size: 32px;
+    }
+}
