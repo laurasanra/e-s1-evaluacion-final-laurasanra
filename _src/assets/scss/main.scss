@@ -1,12 +1,7 @@
 *  {
 	box-sizing: border-box
 }
-
 @import 'core/settings';
-@import 'layout/header';
-@import 'layout/main1';
-@import 'layout/main2';
-@import 'layout/footer';
 
 body {
 	margin: 0px;
@@ -14,7 +9,13 @@ body {
 	color: $colordark;
 	font-size: 16px;
 	font-family: $fontregular;
-	font-weight: $weightregular;
+	font-weight: $fontweightregular;
 	min-height: 100vh;
 	width: 100%;
 }
+
+@import 'layout/header';
+@import 'layout/main1';
+@import 'layout/main2';
+@import 'layout/footer';
+

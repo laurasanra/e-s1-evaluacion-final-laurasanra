@@ -1,9 +1,86 @@
+/*Header*/
+
 .header {
-    position: relative;
     min-height: 100vh;
     width: 100%;
     background-image: url("../images/cover.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.header__text {
+    color: $colorlight;
+    text-align: center;
+    width: 290px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.main__title {
+    font-family: $fontprincipal;
+    font-size: 42px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.claim {
+    font-family: $fontregular;
+    font-size: 16px;
+    font-weight: $fontweightmedium;
+    margin: 0px auto;
+}
+
+.circle__buttom {
+    border-radius: 100px;
+    height: 45px;
+    width: 45px;
+    background-color: $colorlight;
+    margin: 45px auto;
+    padding-top: 15px;
+}
+
+/*Menu button*/
+
+.menu__button {
+    background-color: #0271bc;
+    height: 44px;
+    width: 44px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 14px 15px;
+}
+
+@media all and (min-width:768px) {
+    .header__text {
+        width: 690px;
+    }
+    .main__title {
+        font-size: 80px;
+        margin-bottom: 20px;
+    }
+    .claim {
+        font-size: 24px;
+    }
+    .circle__buttom {
+        margin-top: 30px;
+    }
+}
+@media all and (min-width:768px) {
+    .header__text {
+        width: 730px;
+        top: auto;
+        bottom: 0px;
+    }
+    .main__title {
+        font-size: 100px;
+        margin-bottom: 0px;
+    }
+    .circle__buttom {
+        margin-bottom: 10px;
+    }
 }
