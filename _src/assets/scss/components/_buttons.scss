@@ -23,7 +23,7 @@
     }
 }
 
-/*Circle button*/ /*Header&footer*/
+/*Circle button*/
 
 .circle__buttom {
     border-radius: 100px;
@@ -76,7 +76,6 @@
     align-items: center;
     border: solid 2px $colorbutton;
     border-radius: 50px;
-
     &:hover {
         border: solid 7px $colorfooter;
     }
@@ -101,7 +100,6 @@
     background-color: $colorbutton;
     border-radius: 50px;
     margin: 0 auto;
-
     &:hover {
         background-color: $colorfooter;
         width: 200px;

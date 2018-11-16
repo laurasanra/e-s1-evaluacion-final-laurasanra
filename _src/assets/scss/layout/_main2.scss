@@ -25,7 +25,6 @@
     font-family: $fontprincipal;
     font-size: 24px;
     margin: 0px;
-    line-height: 1.67;
 }
 
 .name__reason {
@@ -43,7 +42,6 @@
 /*Tablet*/
 
 @media all and (min-width:768px) {
-    
     .title__reasons {
         font-size: 26px;
     }
@@ -53,7 +51,6 @@
     .text__reason {
         font-size: 20px;
     }
-
     .container__section2 {
         display: grid;
         grid-template-columns: 1fr;
@@ -61,13 +58,9 @@
         width: 90%;
         max-width: 690px;
     }
-
     .title__reasons {
         grid-column: span 1;
-        grid-row-start: 1;
-        grid-row-end: 2;
     }
-
     .reasons__list {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -75,15 +68,11 @@
         grid-gap: 30px;
         margin: 20px 0;
     }
-
     .reason {
-        grid-column: span 1;        
+        grid-column: span 1;
     }
-    
     .button__reasons {
         grid-column: span 1;
-        grid-row-start: 3;
-        grid-row-end: 4;
     }
 }
 

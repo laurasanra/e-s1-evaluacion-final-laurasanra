@@ -6,22 +6,25 @@
     background-position: center;
     background-size: cover;
 }
+
 .header__text {
     color: $colorlight;
     text-align: center;
-    width: 290px;
+    min-width: 290px;
     margin: 0 auto;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
     bottom: 0px;
 }
+
 .main__title {
     font-family: $fontprincipal;
     font-size: 42px;
     text-transform: uppercase;
     margin: 0px;
 }
+
 .claim {
     font-family: $fontregular;
     font-size: 16px;
@@ -29,9 +32,11 @@
     margin: 0px auto;
 }
 
+/*Tablet*/
+
 @media all and (min-width:768px) {
     .header__text {
-        width: 690px;
+        max-width: 690px;
     }
     .main__title {
         font-size: 80px;
@@ -41,9 +46,12 @@
         font-size: 24px;
     }
 }
+
+/*Laptop*/
+
 @media all and (min-width:1280px) {
     .header__text {
-        width: 730px;
+        max-width: 730px;
     }
     .main__title {
         font-size: 100px;
