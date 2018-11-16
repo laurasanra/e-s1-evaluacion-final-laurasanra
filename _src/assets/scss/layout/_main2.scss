@@ -40,20 +40,51 @@
     line-height: 1.67;
 }
 
-
 /*Tablet*/
 
 @media all and (min-width:768px) {
+    
     .title__reasons {
-         font-size: 26px;
+        font-size: 26px;
     }
     .name__reason {
         font-size: 24px;
-   }
-   .text__reason {
-    font-size: 20px;
-}
+    }
+    .text__reason {
+        font-size: 20px;
+    }
 
+    .container__section2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 45px 1fr 45px;
+        width: 90%;
+        max-width: 690px;
+    }
+
+    .title__reasons {
+        grid-column: span 1;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .reasons__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        grid-gap: 30px;
+        margin: 20px 0;
+    }
+
+    .reason {
+        grid-column: span 1;        
+    }
+    
+    .button__reasons {
+        grid-column: span 1;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
 }
 
 /*Laptop*/
@@ -61,5 +92,8 @@
 @media all and (min-width:1280px) {
     .title__reasons {
         font-size: 32px;
+    }
+    .container__section2 {
+        max-width: 1110px;
     }
 }
