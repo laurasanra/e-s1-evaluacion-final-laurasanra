@@ -27,6 +27,12 @@
     width: 45px;
     background-color: $colorlight;
     margin: 45px auto;
+    border: solid 1px lightgrey;
+}
+
+.scroll-up {
+    margin: 0px;
+    margin-top: -22px;
 }
 
 /*Go button*/
@@ -48,6 +54,26 @@
     margin: 0px;
 }
 
+/*Button reasons*/
+
+.button__reasons {
+    height: 45px;
+    width: 184px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $colorbutton;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.text__reasons {
+    color: $colorlight;
+    font-size: 20px;
+    font-family: $fontregular;
+    font-weight: $fontweightmedium;
+}
+
 /*Tablet*/
 
 @media all and (min-width:768px) {
@@ -56,6 +82,9 @@
     }
     .button__go {
         width: 91px;
+    }
+    .scroll-up {
+        margin-top: -22px;
     }
 }
 

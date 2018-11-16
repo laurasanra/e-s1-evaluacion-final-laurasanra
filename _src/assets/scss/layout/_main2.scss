@@ -1,0 +1,65 @@
+.section2 {
+    background-color: #eff9ff;
+}
+
+.container__section2 {
+    width: 290px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.reasons__list {
+    list-style: none;
+    padding: 0px;
+    width: 180px;
+    margin: 45px auto;
+}
+
+.reason {
+    margin-bottom: 45px;
+}
+
+.title__reasons {
+    font-family: $fontprincipal;
+    font-size: 24px;
+    margin: 0px;
+    line-height: 1.67;
+}
+
+.name__reason {
+    font-family: $fontprincipal;
+    font-size: 18px;
+}
+
+.text__reason {
+    font-family: $fontregular;
+    font-size: 18px;
+    margin: 0px;
+    line-height: 1.67;
+}
+
+
+/*Tablet*/
+
+@media all and (min-width:768px) {
+    .title__reasons {
+         font-size: 26px;
+    }
+    .name__reason {
+        font-size: 24px;
+   }
+   .text__reason {
+    font-size: 20px;
+}
+
+}
+
+/*Laptop*/
+
+@media all and (min-width:1280px) {
+    .title__reasons {
+        font-size: 32px;
+    }
+}

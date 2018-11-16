@@ -1,0 +1,31 @@
+.footer {
+    background-color: $colorfooter;
+}
+
+.footer__container {
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 128px;
+}
+
+.text__footer {
+    max-width: 290px;
+}
+
+.year {
+    font-size: 14px;
+    color: $colorlight;
+    text-align: center;
+}
+
+.love {
+    font-size: 14px;
+    color: $colorlight;
+    text-align: center;
+}
+
+.heart {
+    color: $colorbutton;
+    font-size: inherit;
+}
