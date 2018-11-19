@@ -76,6 +76,7 @@
     align-items: center;
     border: solid 2px $colorbutton;
     border-radius: 50px;
+    transition: border ease 1s;
     &:hover {
         border: solid 7px $colorfooter;
     }
@@ -100,6 +101,7 @@
     background-color: $colorbutton;
     border-radius: 50px;
     margin: 0 auto;
+    transition: background-color ease 1s;
     &:hover {
         background-color: $colorfooter;
         width: 200px;
